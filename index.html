@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // const name ="shivani";
+    // const a = ` hello ${name}!`;
+    // console.log(a);
+
+//    arrow function
+//    const a = 4;
+//    const b = 5;
+//    let myFunction = (c, d) => c * d;
+//    console.log(myFunction(a,b));
+
+   // class 
+   class biodata{
+
+    constructor(name ,age){
+        this.age = age;
+        this.name = name;
+
+    }
+
+    displayinfo(){
+    console.log(`name = ${this.name}`);
+    }
+
+   }
+
+   const sanj = new biodata("sanjina", 20);
+   console.log(sanj.name);
+   sanj.displayinfo();
+
+
+   //modulus
+
+   //Enhanced literals
+   
+const obj ={
+    sur(){
+        console.log("sanjina");
+    }
+}
+obj.sur();
+
+
+
+//destructing obj and array 
+const person={
+    name : "sanju",
+    caste : "talib",
+}
+const{name : fname ,caste}=person;
+console.log(fname);
+
+
+// const arr = [1,2,3,4];
+
+// const[first, second   ]=arr;
+// console.log(third); // error
+
+//rest operator
+// function sum(...theArgs) {
+//   let total = 0;
+//   for (const arg of theArgs) {
+//     total += arg;
+//   }
+//   return total;
+// }
+
+// console.log(sum(1, 2, 3));
+// // Expected output: 6
+
+// console.log(sum(1, 2, 3, 4));
+// // Expected output: 10
+
+//spread 
+const arr=[1,2,3,4,5,6,7,8];
+const arr1  =[...arr,4,5 ,6 ,6 ,6];
+console.log(arr1);
+
+
+// promises 
+
+    </script>
+</body>
+</html>
